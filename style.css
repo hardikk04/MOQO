@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+@font-face {
+  font-family: regular;
+  src: url(./Heading-Now-Variable.ttf);
+}
+
+.main {
+  position: relative;
+  width: 100%;
+}
+
+nav {
+  padding-bottom: 1.5vw;
+  border-bottom: 1px solid #ffffff3e;
+}
+
+.page1-text > h1::after {
+  content: "TM";
+  position: absolute;
+  right: 0;
+  top: 8%;
+  font-size: 2.5vw;
+  font-weight: 600;
+}
