@@ -16,15 +16,17 @@
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
+    <nav
+      class="fixed top-0 z-10 flex justify-between pt-[2vw] px-[2vw] w-full text-white"
+    >
+      <h3 class="text-[1vw]">WE BUILD BRANDS</h3>
+      <div class="nav-right flex gap-[1vw] items-center">
+        <h3 class="text-[1vw] uppercase">Menu</h3>
+        <i class="ri-menu-line text-[1.2vw]"></i>
+      </div>
+    </nav>
     <div class="main bg-black">
-      <div class="page1 min-h-[100vh] w-full text-white">
-        <nav class="flex justify-between pt-[2vw] px-[2vw]">
-          <h3 class="text-[1vw]">WE BUILD BRANDS</h3>
-          <div class="nav-right flex gap-[1vw] items-center">
-            <h3 class="text-[1vw] uppercase">Menu</h3>
-            <i class="ri-menu-line text-[1.2vw]"></i>
-          </div>
-        </nav>
+      <div class="page1 min-h-[100vh] w-full text-white pt-[5vw]">
         <div class="page1-text flex">
           <h1 class="text-[30vw] font-[600] leading-[.8] relative">MOQO</h1>
         </div>
@@ -42,7 +44,91 @@
           ></video>
         </div>
       </div>
-      <div class="page2 h-[100vh] w-full"></div>
+      <div class="page2 h-[100vh] w-full px-[2vw] flex">
+        <div class="page2-left w-1/2 h-full flex justify-center items-center">
+          <div class="page2-left-text text-black relative">
+            <h1 class="text-[6vw] font-[700] leading-none tracking-tighter">
+              LET’S TURN <br />
+              YOUR <br />
+              STORY
+            </h1>
+
+            <h3 class="w-1/2 absolute right-[-10%] bottom-[5%]">
+              WELL THOUGHT-OUT. COVERING YOUR BUSINESS STRATEGY. RESPONSIVE TO
+              TIME AND TRENDS.
+            </h3>
+          </div>
+        </div>
+        <div class="page2-right w-1/2 h-full flex justify-center items-center">
+          <div class="page2-right-text">
+            <h1
+              class="text-[6vw] font-[700] leading-none tracking-tighter text-end"
+            >
+              INTO <br />
+              A BRAND <br />
+              THAT LASTS
+            </h1>
+          </div>
+        </div>
+      </div>
+      <div class="page3 min-h-[100vh] w-full flex justify-center">
+        <div class="page3-box w-[70%] h-[270vh] flex flex-col gap-[3vw]">
+          <div class="page3-elem1">
+            <div class="page3-elem1-img h-[80vh] w-full relative">
+              <div
+                class="page3-img-cursor1 opacity-0 h-[16vh] w-[16vh] rounded-full bg-rose-200 absolute top-0 left-0 flex justify-center items-center"
+              >
+                <h3 class="uppercase text-black">View cases</h3>
+              </div>
+              <img
+                class="w-full h-full object-cover"
+                src="https://moqo.be/uploads/files/transforms/Work/_2200x1467_crop_center-center_85_none/105015/MOQO_THUMBNAIL_1920x1280_2024-01-18-155630_xrhl.webp"
+                alt=""
+              />
+            </div>
+            <div class="page3-elem1-text flex justify-between mt-[.5vw]">
+              <h3 class="font-[500] text-[1.1vw]">ACASA</h3>
+              <h3 class="text-[.9vw]">PROJECTONTWIKKELING</h3>
+            </div>
+          </div>
+          <div class="page3-elem2">
+            <div class="page3-elem2-img h-[80vh] w-full relative">
+              <div
+                class="page3-img-cursor2 opacity-0 h-[16vh] w-[16vh] rounded-full bg-rose-200 absolute top-0 left-0 flex justify-center items-center"
+              >
+                <h3 class="uppercase text-black">View cases</h3>
+              </div>
+              <img
+                class="w-full h-full object-cover"
+                src="https://moqo.be/uploads/files/transforms/Work/_2200x1467_crop_center-center_85_none/91159/MOQO_THUMBNAIL_1920x1280_2023-11-14-162913_otwr.webp"
+                alt=""
+              />
+            </div>
+            <div class="page3-elem2-text flex justify-between mt-[.5vw]">
+              <h3 class="font-[500] text-[1.1vw]">ACASA</h3>
+              <h3 class="text-[.9vw]">PROJECTONTWIKKELING</h3>
+            </div>
+          </div>
+          <div class="page3-elem3">
+            <div class="page3-elem3-img h-[80vh] w-full relative">
+              <div
+                class="page3-img-cursor3 opacity-0 h-[16vh] w-[16vh] rounded-full bg-rose-200 absolute top-0 left-0 flex justify-center items-center"
+              >
+                <h3 class="uppercase text-black">View cases</h3>
+              </div>
+              <img
+                class="w-full h-full object-cover"
+                src="https://moqo.be/uploads/files/transforms/Work/_2200x1835_crop_center-center_85_none/80796/MOQO_AGRISTO292093.webp"
+                alt=""
+              />
+            </div>
+            <div class="page3-elem3-text flex justify-between mt-[.5vw]">
+              <h3 class="font-[500] text-[1.1vw]">ACASA</h3>
+              <h3 class="text-[.9vw]">PROJECTONTWIKKELING</h3>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
     <script
